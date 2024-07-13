@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindful Nest</title>
+    <style>
+        body {
+            font-family: 'Gotham', sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #ff9a9e);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
+            width: 80%;
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #ff9a9e;
+        }
+        .contact {
+            text-align: center;
+        }
+        footer {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mindful Nest</h1>
+        <nav>
+            <a href="#shop">Shop</a>
+            <a href="#learn">Learn</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <section id="shop">
+        <h2>Shop</h2>
+        <p>Explore our selection of books and resources designed to promote reading from a young age, teach important calm down skills, and support child development milestones.</p>
+        <!-- Add product listings here -->
+    </section>
+
+    <section id="learn">
+        <h2>Learn</h2>
+        <p>Discover valuable resources including videos, pictures, and articles on calm down techniques and child development information. Feel free to ask questions and engage with our community.</p>
+        <!-- Add educational content here -->
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need support, please email us at <a href="mailto:vanessabobbsemple@gmail.com">vanessabobbsemple@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mindful Nest. All rights reserved.</p>
+    </footer>
+</body>
+</html>
